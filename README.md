@@ -1,5 +1,14 @@
 # Financial_Engineering
 student ID: b04303117 經濟五 顏嘉佑
 
- Hello, I am Eddie, from Department of Economics in NTU.
- This will be used to upload the homework for the course: Financial Engineering
+這裡用於紀錄108-2 Financial_Engineering 的修課歷程
+
+Homework 1
+
+
+
+
+
+
+
+week 1
