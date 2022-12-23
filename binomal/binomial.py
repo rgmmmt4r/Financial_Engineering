@@ -65,8 +65,8 @@ def binomial_pricing_EU(S0,sigma,T,r,K,n,type):
     elif  type == "put":
         for i in range(n+1):
             ST = S0 *  u**i*d**(n-i)
-            PT = max(K-ST,0)
-            this_node_prob =  combin(n,i)*(p)**i*(1-p)**(n-i)
+            PT = Decimal(max(K-ST,0))
+            this_node_prob =   Decimal(combin(n,i)*(p)**i*(1-p)**(n-i))
             future_price += PT * this_node_prob
     else:
         return "must input call or put"
@@ -81,6 +81,16 @@ def combin(n,i):
 N = [4,8,100,1000]
 for i in N:
     print("call price:",binomial_pricing_EU(S0,sigma,T,r,K,i,"call"))
+
+
+
+N = [4,8,100,1000]
+for i in N:
+    print("put price:",binomial_pricing_EU(S0,sigma,T,r,K,i,"put"))
+
+
+
+
 
 
 
