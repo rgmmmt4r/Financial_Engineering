@@ -14,3 +14,7 @@ Go to file : https://github.com/rgmmmt4r/Financial_Engineering/blob/master/binom
 這份code中，使用者可以定價選擇權。  
 詳細的說，使用者只需要呼叫  binomial_pricing_EU(S0,sigma,T,r,K,n,type) 即可印出選擇權價格，  
 其中 n 是binomial option 切的期數， type 可以是 "call" 或是 "put"   
+
+另外在這份code中，從Yahoo Finance 爬下TSLA的股價，並且畫出定價模型與實際價格的差距
+https://github.com/rgmmmt4r/Financial_Engineering/blob/master/binomal/coin%20fliping%20and%20option%20pricing%20for%20TSLA.ipynb  
+
