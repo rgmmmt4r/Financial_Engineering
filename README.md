@@ -25,5 +25,5 @@ https://github.com/rgmmmt4r/Financial_Engineering/blob/master/Black%20Scholes/Bl
 並且也考慮了有股利的情況。
   
   
-4. 使用實作出 Put-call parity，畫出兩個投資組合價值，印證兩個投組價值相同。  
+4.使用實作出 Put-call parity，畫出兩個投資組合價值，印證兩個投組價值相同。  
 https://github.com/rgmmmt4r/Financial_Engineering/blob/master/Put%20Call%20Parity/Put%20Call%20Parity.ipynb  
